@@ -74,3 +74,12 @@ temp/
 context_flush_history/
 archive/
 -e "\n# 敏感配置 (禁止提交)\n.pypirc\n*.env\n!.env.example" 
+
+# Sensitive files (CRITICAL!)
+*.pypirc
+*.key
+*.pem
+_secret
+_token
+_credential
+_password
